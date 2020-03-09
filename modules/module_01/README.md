@@ -10,7 +10,7 @@ Before starting this module, perform a fresh reinstall of the AWS EC2 FPGA Devel
 cd ~
 git clone https://github.com/aws/aws-fpga.git  
 cd aws-fpga                                         
-source sdaccel_setup.sh
+source vitis_setup.sh
 
 # Download the SDAccel F1 Developer Labs
 cd ~
