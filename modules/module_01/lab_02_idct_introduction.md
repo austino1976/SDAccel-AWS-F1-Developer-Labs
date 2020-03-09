@@ -94,7 +94,7 @@ The kernel used in this lab is an Inverse Discrete Cosine Transform (IDCT), a fu
     RUN COMPLETE
     ```
 
-    The generated files are put into `build` folder under `design` directory. You can use `ls` command to investigate the generated files.
+    The generated files are put into `build` folder. You can use `ls` command to investigate the generated files.
 
 1. After software emulation finishes successfully, you can move forward to run the design in hardware emulation. The corresponding command is:
     ```bash
