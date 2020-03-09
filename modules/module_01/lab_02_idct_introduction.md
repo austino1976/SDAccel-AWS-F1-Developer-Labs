@@ -1,4 +1,4 @@
-## Using the Vitis xocc compiler to develop F1 accelerated applications
+## Using the Vitis v++ compiler to develop F1 accelerated applications
 
 This lab is designed to teach the fundamentals of the Vitis development environment and programming model. This includes: familiarizing with OpenCL, understanding software and hardware emulation flows, profiling performance and identifying how to optimize host and kernel code.
 
@@ -157,7 +157,7 @@ This number will serve as reference point to compare against after optimization.
 
 #### HLS reports
 
-The Vitis xocc compiler also generates **HLS Reports** for each kernel. **HLS Reports** explain the results of compiling the kernel into hardware. It contains many details (including clocking, resources or device utilization) about the performance and logic usage of the custom-generated hardware logic. These details provide many insights to guide the kernel optimization process.    
+The Vitis v++ compiler also generates **HLS Reports** for each kernel. **HLS Reports** explain the results of compiling the kernel into hardware. It contains many details (including clocking, resources or device utilization) about the performance and logic usage of the custom-generated hardware logic. These details provide many insights to guide the kernel optimization process.    
 
 1. Locate the HLS reports:
 ```
