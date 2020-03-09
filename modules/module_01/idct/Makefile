@@ -81,12 +81,12 @@ $(BUILD_DIR)/$(HOST_EXE): $(HOST_SRC_CPP)
 
 $(BUILD_DIR)/$(XO_NAME).xo: $(KERNEL_SRC_CPP)
 	mkdir -p $(BUILD_DIR)
-	xocc $(XOCCFLAGS) -c -k krnl_idct $(KERNEL_SRC_CPP) -o $@
+	v++ $(XOCCFLAGS) -c -k krnl_idct $(KERNEL_SRC_CPP) -o $@
 
 $(BUILD_DIR)/$(XCLBIN): $(BUILD_DIR)/$(XO_NAME).xo
 	mkdir -p $(BUILD_DIR)
 	mkdir -p $(BUILD_DIR)/$(TARGET)
-	xocc $(XOCCFLAGS) -l -o $@ $(BUILD_DIR)/$(XO_NAME).xo
+	v++ $(XOCCFLAGS) -l -o $@ $(BUILD_DIR)/$(XO_NAME).xo
 
 ## Emulation Files Generation
 
