@@ -20,7 +20,7 @@ The "hello world" example is an OpenCL application with a simple vector-addition
 1.  Source the Vitis environment  
 
     ```bash
-    cd ~/src/project_data/aws-fpga
+    cd ~/aws-fpga
     source vitis_setup.sh
     cd ~
     ```
