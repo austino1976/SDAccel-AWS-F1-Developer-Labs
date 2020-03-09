@@ -1,11 +1,11 @@
 ## Using the Vitis xocc compiler to develop F1 accelerated applications
 
-This lab is designed to teach the fundamentals of the SDAccel development environment and programming model. This includes: familiarizing with OpenCL, understanding software and hardware emulation flows, profiling performance and identifying how to optimize host and kernel code.
+This lab is designed to teach the fundamentals of the Vitis development environment and programming model. This includes: familiarizing with OpenCL, understanding software and hardware emulation flows, profiling performance and identifying how to optimize host and kernel code.
 
 The kernel used in this lab is an Inverse Discrete Cosine Transform (IDCT), a function widely used in audio/image codecs such as HEVC.
 
 
-### Setting Up SDAccel Environment
+### Setting Up Vitis Environment
 
 1.  Open a new terminal by right-clicking anywhere in the Desktop area and selecting **Open Terminal**.
 
