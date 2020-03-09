@@ -22,6 +22,7 @@ The "hello world" example is an OpenCL application with a simple vector-addition
     ```bash
     cd ~/aws-fpga
     source vitis_setup.sh
+    source vitis_runtime_setup.sh
     cd ~
     ```
 	*Note: the vitis_setup.sh script might generate warning messages, but these can be safely ignored.*
