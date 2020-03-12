@@ -143,7 +143,7 @@ After the emulation run completes, an profile_summary_hw_emu.csv file is generat
 
 3. Click on the **Kernels & Compute Units** tab of the **Profile Summary** report, locate and note the following numbers:
 
-  - Kernel Total Time (ms):
+  - Kernel Total Time (ms): e.g. 0.023mS
 
 This number will serve as reference point to compare against after optimization.    
 
