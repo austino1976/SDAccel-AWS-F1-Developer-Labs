@@ -170,18 +170,7 @@ find . -name "*_csynth.rpt"
 
 #### Application Timeline report
 
-In addition to the profile_summary_hw_emu.csv file, the emulation run also generates an timeline_trace_hw_emu.csv file in yhe `build` folder. Before viewing it in Vitis GUI, it must be converted into an appropriate format.
-
-1. Convert the .csv file to the .wdb format
-    ```
-    cd build; 
-    sdx_analyze trace -i timeline_trace_hw_emu.csv -f wdb
-    ```
-
-1. Execute the following command to load timeline trace in Vitis GUI
-   ```
-   sdx -workspace tmp --report timeline_trace_hw_emu.wdb
-   ```
+In addition to the profile_summary_hw_emu.csv file, the emulation run also generates an timeline_trace_hw_emu.csv file in yhe `build` folder. This can be viewed using Vitis Analyzer by opening the run.summary file
 
 ![](../../images/module_01/lab_02_idct/SWTimeline.PNG)
 
